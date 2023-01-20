@@ -57,70 +57,55 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "jcarroyos",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "A a sketched circle",
+          src: "img/home.png",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Portfolio",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "More about me",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "LinkedIn",
+                to: "https://linkedin.com/in/juancarlosarroyo",
+              },
+              {
+                label: "mastodon.art",
+                to: "https://mastodon.art/@jcarroyos",
+              },
+              {
+                label: "freeCodeCamp",
+                to: "https://www.freecodecamp.org/jcarroyos",
               },
             ],
           },
           {
-            title: "Community",
+            title: "I participate in",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "ACdM",
+                to: "https://alianzacolombianademuseos.co/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "DVS",
+                to: "https://www.datavisualizationsociety.org/mentorship",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
