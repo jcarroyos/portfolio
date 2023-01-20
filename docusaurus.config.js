@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Portfolio",
-  tagline: "jcarroyos",
+  title: "jcarroyos",
+  tagline: "Portfolio",
   url: "https://github.com",
   baseUrl: "/portfolio/",
   onBrokenLinks: "throw",
@@ -102,6 +102,19 @@ const config = {
               {
                 label: "DVS",
                 to: "https://www.datavisualizationsociety.org/mentorship",
+              },
+            ],
+          },
+          {
+            title: "I teach",
+            items: [
+              {
+                label: "Infographics",
+                to: "#",
+              },
+              {
+                label: "Virtual environments",
+                to: "#",
               },
             ],
           },
