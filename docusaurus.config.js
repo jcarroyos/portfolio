@@ -90,6 +90,10 @@ const config = {
                 label: "freeCodeCamp",
                 to: "https://www.freecodecamp.org/jcarroyos",
               },
+              {
+                label: "GitHub",
+                to: "https://github.com/jcarroyos",
+              },
             ],
           },
           {
