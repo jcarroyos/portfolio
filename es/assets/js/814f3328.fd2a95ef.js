@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[535],{5641:o=>{o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/portfolio/es/blog/welcome"},{"title":"MDX Blog Post","permalink":"/portfolio/es/blog/mdx-blog-post"}]}')}}]);
