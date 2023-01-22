@@ -83,11 +83,11 @@ const config = {
                 to: "https://linkedin.com/in/juancarlosarroyo",
               },
               {
-                label: "mastodon.art",
+                label: "Mastodon.art",
                 to: "https://mastodon.art/@jcarroyos",
               },
               {
-                label: "freeCodeCamp",
+                label: "FreeCodeCamp",
                 to: "https://www.freecodecamp.org/jcarroyos",
               },
               {
@@ -114,11 +114,11 @@ const config = {
             items: [
               {
                 label: "Infographics",
-                to: "#",
+                to: "/blog/tags/infographics",
               },
               {
                 label: "Virtual environments",
-                to: "#",
+                to: "/blog/tags/virtual-enviroments",
               },
             ],
           },

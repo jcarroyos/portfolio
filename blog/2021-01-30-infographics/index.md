@@ -1,10 +1,11 @@
 ---
-slug: mdx-blog-post
-title: MDX Blog Post
+slug: infographics-utolima
+title: Infographics at Universidad del Tolima
 authors: [jcarroyos]
-tags: [docusaurus]
+tags: [infographics]
 ---
 
+Since
 With a practical approach, this course presents the evolution of infographics, the workshop focus on the core questions:
 
 - what is infographics?
@@ -14,11 +15,5 @@ With a practical approach, this course presents the evolution of infographics, t
 :::tip
 
 Use the power of React to create interactive blog posts.
-
-```js
-<button onClick={() => alert("button clicked!")}>Click me!</button>
-```
-
-<button onClick={() => alert("button clicked!")}>Click me!</button>
 
 :::
