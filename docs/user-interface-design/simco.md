@@ -16,12 +16,14 @@ To make the diagnosis of the site www.museoscolombianos.gov.co where the validit
 
 ## The solution
 
+Giving priority to information accessibility, the redesign proposal is to have a sober and functional interface, also adding the online government guidelines.
+
 ![UX/UI Design for SIMCO](./assets/simco-jcarroyos.jpg)
+![UX/UI Design for SIMCO](./assets/simco-home.png)
+![UX/UI Design for SIMCO](./assets/simco-dashboard.png)
 
-## The code
-
-### Dataviz module
-
-![Screencapture of dataviz module](./assets/dataviz-d3-laurajunco.png)
+### Public dataviz module
 
 This module returns the report service from SIMCO to graphs with the aggregated data. Code commissioned to [@laurajunco](https://github.com/laurajunco). View the D3.js code in [https://github.com/jcarroyos/simco-dataviz](https://github.com/jcarroyos/simco-dataviz)
+
+![Screencapture of dataviz module](./assets/dataviz-d3-laurajunco.png)
