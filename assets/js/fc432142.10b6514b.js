@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[5050],{6096:o=>{o.exports=JSON.parse('[{"label":"virtual-enviroments","permalink":"/portfolio/blog/tags/virtual-enviroments","count":1},{"label":"infographics","permalink":"/portfolio/blog/tags/infographics","count":1}]')}}]);

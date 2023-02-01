@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[733],{7202:o=>{o.exports=JSON.parse('{"permalink":"/portfolio/es/blog/tags/virtual-enviroments","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
