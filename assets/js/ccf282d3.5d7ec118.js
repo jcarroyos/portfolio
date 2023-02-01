@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[4038],{9459:o=>{o.exports=JSON.parse('{"label":"virtual-enviroments","permalink":"/portfolio/blog/tags/virtual-enviroments","allTagsPath":"/portfolio/blog/tags","count":1}')}}]);
