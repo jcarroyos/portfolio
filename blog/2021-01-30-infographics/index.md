@@ -1,6 +1,6 @@
 ---
 slug: infographics-utolima
-title: Infographics at Universidad del Tolima
+title: Infographics at UTolima
 authors: [jcarroyos]
 tags: [infographics]
 ---
