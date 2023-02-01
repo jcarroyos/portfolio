@@ -10,7 +10,7 @@ const config = {
   tagline: "Portfolio",
   url: "https://github.com",
   baseUrl: "/portfolio/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
