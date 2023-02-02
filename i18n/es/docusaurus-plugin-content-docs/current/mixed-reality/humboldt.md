@@ -27,13 +27,13 @@ Camilo Jimenez, Juan Camilo Fonnegra, Juan Carlos Arroyo Sosa, Gladys Viviana Go
 
 ![Immersive game prototype](../../../../../docs/mixed-reality/assets/viviana.jpg)
 
-We develop the prototype using Unity and [Microsoft Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity). We tested the VR environment with the Samsung Gear VR glasses.
+Desarrollamos el prototipo usando [Microsoft Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity). Probamos el entorno de realidad virtual con las gafas Samsung Gear VR.
 
 ## Documentos
 
-- [Killing Alex Game Concept Document](../../../../../docs/mixed-reality/assets/Killing%20Alex%20Game%20Concept%20Document.pdf)
-- [Killing Alex Game Design Document](../../../../../docs/mixed-reality/assets/Killing%20Alex%20Game%20Design%20Document.pdf)
+- [Documento de concepto del juego](../../../../../docs/mixed-reality/assets/Killing%20Alex%20Game%20Concept%20Document.pdf)
+- [Documento de diseño del juego](../../../../../docs/mixed-reality/assets/Killing%20Alex%20Game%20Design%20Document.pdf)
 
 ## El código
 
-Explore the source code in github repo [Humboldt learns to hurt himself](https://github.com/jcarroyos/MPV_Humboldt-learns-to-hurt-himself)
+Explore el código fuente en el repositorio de github [Humboldt learns to hurt himself](https://github.com/jcarroyos/MPV_Humboldt-learns-to-hurt-himself)
