@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.2. UI Design & Develop": {
+    "message": "2. Desarrollo web",
+    "description": "The label for category 2. UI Design & Develop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.2. UI Design & Develop.link.generated-index.description": {
+    "message": "Convirtiendo bocetos a diseños de interfaz de usuario para aplicativos web",
+    "description": "The generated-index page description for category 2. UI Design & Develop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.3. Mixed Reality": {
+    "message": "3. Realidad mixta",
+    "description": "The label for category 3. Mixed Reality in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.3. Mixed Reality.link.generated-index.description": {
+    "message": "El metaverso es más viejo que la panela",
+    "description": "The generated-index page description for category 3. Mixed Reality in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.4. eLearning": {
+    "message": "4. eLearning",
+    "description": "The label for category 4. eLearning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.4. eLearning.link.generated-index.description": {
+    "message": "Experiencias pedagógicas para ambientes virtuales",
+    "description": "The generated-index page description for category 4. eLearning in sidebar tutorialSidebar"
+  }
+}
