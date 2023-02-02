@@ -13,7 +13,7 @@ Redesign and implement the frontend environment of the Colombian Museum Informat
 
 ## The challenge
 
-To make the diagnosis of the site simco.museoscolombianos.gov.co where the validity of the published information, navigation, visualization on mobile devices, visual design, audiovisual and text content is contemplated. Prepare a redesign that has as scope: graphic proposal, usability, AA and AAA accessibility, typography and color, visual, audiovisual and text content for PC screens and mobile devices. Develop the master page of the website, home pages of each site, internal pages and subsites. Creation of lists and libraries of content and pages of content queries.
+To make the diagnosis of the site [SIMCO](http://simco.museoscolombianos.gov.co/) where the validity of the published information, navigation, visualization on mobile devices, visual design, audiovisual and text content is contemplated. Prepare a redesign that has as scope: graphic proposal, usability, AA and AAA accessibility, typography and color, visual, audiovisual and text content for PC screens and mobile devices. Develop the master page of the website, home pages of each site, internal pages and subsites. Creation of lists and libraries of content and pages of content queries.
 
 ## The solution
 
@@ -23,7 +23,7 @@ Giving priority to information accessibility, the redesign proposal is to have a
 ![UX/UI Design for SIMCO](./assets/simco-home.png)
 ![UX/UI Design for SIMCO](./assets/simco-dashboard.png)
 
-### About the code
+## The code
 
 .NET web application, front end code at https://github.com/jcarroyos/simco-web
 

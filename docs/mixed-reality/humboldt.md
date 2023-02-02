@@ -5,7 +5,7 @@ sidebar_position: 1
 # Humboldt and the Americas
 
 ![Immersive game prototype](./assets/9LcCw95utQF_720.png)
-📆 Jun 2019
+📆 2019
 
 Participants in the mixed reality Hackathon "Humboldt and the Americas", our team
 “La Piragua” created a proposal based on the correspondence between Francisco José de Caldas and Alexander von Humboldt. An immersive game prototype thinked like a multiverse travel experience, through places and moments of Humboldt's journey in the Americas, in which "Alex" will travel through different interactive scenarios with characters that would take you into experiences from contemplation to measurement.
