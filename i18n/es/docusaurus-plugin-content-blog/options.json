@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Bitácora",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Bitácora",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Escritos recientes",
+    "description": "The label for the left sidebar"
+  }
+}

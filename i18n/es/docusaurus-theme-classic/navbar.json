@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "jcarroyos",
+    "description": "The title in the navbar"
+  },
+  "item.label.Portfolio": {
+    "message": "Portafolio",
+    "description": "Navbar item with label Portfolio"
+  },
+  "item.label.Blog": {
+    "message": "Bitácora",
+    "description": "Navbar item with label Blog"
+  }
+}

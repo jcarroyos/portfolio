@@ -1,0 +1,46 @@
+{
+  "link.title.More about me": {
+    "message": "Acerca de mi",
+    "description": "The title of the footer links column with title=More about me in the footer"
+  },
+  "link.title.I participate in": {
+    "message": "Participo en",
+    "description": "The title of the footer links column with title=I participate in in the footer"
+  },
+  "link.title.I teach": {
+    "message": "Enseño",
+    "description": "The title of the footer links column with title=I teach in the footer"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://linkedin.com/in/juancarlosarroyo"
+  },
+  "link.item.label.Mastodon.art": {
+    "message": "Mastodon.art",
+    "description": "The label of footer link with label=Mastodon.art linking to https://mastodon.art/@jcarroyos"
+  },
+  "link.item.label.FreeCodeCamp": {
+    "message": "FreeCodeCamp",
+    "description": "The label of footer link with label=FreeCodeCamp linking to https://www.freecodecamp.org/jcarroyos"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/jcarroyos"
+  },
+  "link.item.label.ACdM": {
+    "message": "ACdM",
+    "description": "The label of footer link with label=ACdM linking to https://alianzacolombianademuseos.co/"
+  },
+  "link.item.label.DVS": {
+    "message": "DVS",
+    "description": "The label of footer link with label=DVS linking to https://www.datavisualizationsociety.org/mentorship"
+  },
+  "link.item.label.Infographics": {
+    "message": "Infografía",
+    "description": "The label of footer link with label=Infographics linking to /blog/tags/infographics"
+  },
+  "link.item.label.Virtual environments": {
+    "message": "Ambientes virtuales",
+    "description": "The label of footer link with label=Virtual environments linking to /blog/tags/virtual-enviroments"
+  }
+}
