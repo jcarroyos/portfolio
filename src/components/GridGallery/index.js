@@ -20,7 +20,7 @@ class App extends React.Component {
             <figure key={index}>
               <img src={image.default} alt={index + 1}></img>
               <figcaption>
-                <a href={"#" + index + 1}>{index + 1}</a>
+                <a href={"#" + (index + 1)}>{index + 1}</a>
               </figcaption>
             </figure>
           ))}
