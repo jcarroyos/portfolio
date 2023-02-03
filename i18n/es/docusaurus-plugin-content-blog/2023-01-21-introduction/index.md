@@ -1,5 +1,5 @@
 ---
-slug: Introducción
+slug: introduction
 title: Introducción
 authors: [jcarroyos]
 tags: []
