@@ -18,9 +18,9 @@ class App extends React.Component {
         <div className="gallery-container">
           {listOfImages.map((image, index) => (
             <figure key={index}>
-              <img src={image.default} alt={index}></img>
+              <img src={image.default} alt={index + 1}></img>
               <figcaption>
-                <a href={"#" + index}>{index}</a>
+                <a href={"#" + index + 1}>{index + 1}</a>
               </figcaption>
             </figure>
           ))}
