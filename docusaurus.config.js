@@ -64,6 +64,7 @@ const config = {
             label: "Portfolio",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/gallery", label: "Gallery", position: "left" },
         ],
       },
       footer: {

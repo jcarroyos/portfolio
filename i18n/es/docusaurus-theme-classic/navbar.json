@@ -10,5 +10,9 @@
   "item.label.Blog": {
     "message": "Bitácora",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Gallery": {
+    "message": "Galería",
+    "description": "Navbar item with label Gallery"
   }
 }
