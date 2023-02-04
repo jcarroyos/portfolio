@@ -7,11 +7,21 @@ figure {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr auto;
+  background-color: #303846;
+}
+figure:hover {
+  background-color: #303846;
 }
 
 figure > img {
   grid-row: 1 / -1;
   grid-column: 1;
+  object-fit: cover;
+  height: 100%;
+  width: auto;
+  transition: all 1s;
+}
+figure > img:hover {
 }
 
 figure a {
