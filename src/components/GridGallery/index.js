@@ -21,7 +21,7 @@ class App extends React.Component {
             <figure key={index}>
               <img src={image.default} alt={index + 1}></img>
               <figcaption>
-                {image.default.split("/")[4].split("-")[0]}
+                {image.default.split("/")[5].split("-")[0]}
               </figcaption>
             </figure>
           ))}
