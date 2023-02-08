@@ -39,8 +39,12 @@
     "message": "Infografía",
     "description": "The label of footer link with label=Infographics linking to /blog/tags/infographics"
   },
-  "link.item.label.Virtual environments": {
-    "message": "Ambientes virtuales",
+  "link.item.label.Virtual environments for museums": {
+    "message": "Entornos virtuales para museos",
+    "description": "The label of footer link with label=Virtual environments linking to /blog/tags/virtual-enviroments"
+  },
+  "link.item.label.Hypermedia design": {
+    "message": "Diseño hipermedia",
     "description": "The label of footer link with label=Virtual environments linking to /blog/tags/virtual-enviroments"
   }
 }

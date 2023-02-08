@@ -112,8 +112,12 @@ const config = {
                 to: "/blog/tags/infographics",
               },
               {
-                label: "Virtual environments",
-                to: "/blog/tags/virtual-enviroments",
+                label: "Virtual environments for museums",
+                to: "/blog/tags/museology",
+              },
+              {
+                label: "Hypermedia design",
+                to: "/blog/tags/hypermedia",
               },
             ],
           },
