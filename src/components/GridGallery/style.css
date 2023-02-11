@@ -51,7 +51,7 @@ figcaption {
 /* Screen larger than 600px? 2 column */
 @media (min-width: 600px) {
   .gallery-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
