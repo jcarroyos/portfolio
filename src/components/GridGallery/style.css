@@ -39,11 +39,24 @@ figcaption {
 
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-auto-flow: dense;
   gap: 10px;
 }
 
 .landscape {
   grid-column-end: span 2;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
