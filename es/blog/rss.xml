@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>jcarroyos Blog</title>
-        <link>https://jcarroyos.art/es/blog</link>
+        <link>https://github.com/es/blog</link>
         <description>jcarroyos Blog</description>
         <lastBuildDate>Sat, 21 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>es</language>
         <item>
             <title><![CDATA[Introducción]]></title>
-            <link>https://jcarroyos.art/es/blog/introduction</link>
+            <link>https://github.com/es/blog/introduction</link>
             <guid>introduction</guid>
             <pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Me gustaría tomar un café contigo, sentarme a dibujar y pensar.]]></description>
@@ -18,7 +18,7 @@
         </item>
         <item>
             <title><![CDATA[Entornos virtuales en MMGP]]></title>
-            <link>https://jcarroyos.art/es/blog/virtual-enviroment-unal</link>
+            <link>https://github.com/es/blog/virtual-enviroment-unal</link>
             <guid>virtual-enviroment-unal</guid>
             <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[¿Cómo aprovechan los museos las tecnologías de la información y los entornos virtuales? Pues bien, a partir de esta pregunta se generó una experiencia pedagógica para las cohortes quinta, sexta y séptima de la Maestría en Museología y Gestión del Patrimonio de la Universidad Nacional de Colombia, el nombre del curso es, ... para sorpresa de nadie 😌, TECNOLOGÍAS DE LA INFORMACIÓN Y ENTORNOS VIRTUALES.]]></description>
@@ -28,7 +28,7 @@
         </item>
         <item>
             <title><![CDATA[Infografía en la UTolima]]></title>
-            <link>https://jcarroyos.art/es/blog/infographics-utolima</link>
+            <link>https://github.com/es/blog/infographics-utolima</link>
             <guid>infographics-utolima</guid>
             <pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Del 2016 al 2021 tuve la hermosa experiencia de ser profesor de Infografía en la Universidad del Tolima. Aprendí y compartí mucho durante durante esos años de enseñanza.]]></description>
