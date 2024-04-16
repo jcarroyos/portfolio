@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>jcarroyos Blog</title>
-        <link>https://github.com/blog</link>
+        <link>https://jcarroyos.art/blog</link>
         <description>jcarroyos Blog</description>
         <lastBuildDate>Sat, 21 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Introduction]]></title>
-            <link>https://github.com/blog/introduction</link>
+            <link>https://jcarroyos.art/blog/introduction</link>
             <guid>introduction</guid>
             <pubDate>Sat, 21 Jan 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[I would like to take a coffe with you and sit to draw & think.]]></description>
@@ -18,7 +18,7 @@
         </item>
         <item>
             <title><![CDATA[Virtual enviroments at MMGP]]></title>
-            <link>https://github.com/blog/virtual-enviroment-unal</link>
+            <link>https://jcarroyos.art/blog/virtual-enviroment-unal</link>
             <guid>virtual-enviroment-unal</guid>
             <pubDate>Wed, 30 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[How do museums take advantage of information technologies and virtual environments? Well, based on this question, a pedagogical experience was created for the fifth, sixth and seventh cohorts of the Master's Degree in Museology and Heritage Management at the National University of Colombia, the name of the course is, ... to no one's surprise 😌, INFORMATION TECHNOLOGIES AND VIRTUAL ENVIRONMENTS.]]></description>
@@ -28,7 +28,7 @@
         </item>
         <item>
             <title><![CDATA[Infographics at UTolima]]></title>
-            <link>https://github.com/blog/infographics-utolima</link>
+            <link>https://jcarroyos.art/blog/infographics-utolima</link>
             <guid>infographics-utolima</guid>
             <pubDate>Sat, 30 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[From 2016 to 2021 I had the beautiful experience in the role of professor for Infographics at University of Tolima. I learned and shared a lot during those years of teaching.]]></description>
