@@ -9,7 +9,7 @@ const config = {
   title: "jcarroyos",
   tagline: "Portfolio",
   url: "https://github.com",
-  baseUrl: "/portfolio/",
+  baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
