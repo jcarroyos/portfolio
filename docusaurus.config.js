@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "jcarroyos",
   tagline: "Portfolio",
-  url: "https://jcarroyos.art",
+  url: "https://github.com",
   baseUrl: "/",
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
