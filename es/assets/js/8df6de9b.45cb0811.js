@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[9954],{3222:o=>{o.exports=JSON.parse('[{"label":"tics","permalink":"/es/blog/tags/tics","count":1},{"label":"museology","permalink":"/es/blog/tags/museology","count":1},{"label":"infographics","permalink":"/es/blog/tags/infographics","count":1}]')}}]);
