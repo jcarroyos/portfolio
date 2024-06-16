@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[2535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Introduction","permalink":"/blog/introduction"},{"title":"Virtual enviroments at MMGP","permalink":"/blog/virtual-enviroment-unal"},{"title":"Infographics at UTolima","permalink":"/blog/infographics-utolima"}]}')}}]);

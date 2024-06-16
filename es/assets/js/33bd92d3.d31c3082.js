@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[8665],{4641:o=>{o.exports=JSON.parse('{"label":"museology","permalink":"/es/blog/tags/museology","allTagsPath":"/es/blog/tags","count":1}')}}]);

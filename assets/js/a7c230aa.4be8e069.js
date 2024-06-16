@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[9643],{8628:s=>{s.exports=JSON.parse('{"label":"d3","permalink":"/docs/tags/d-3","allTagsPath":"/docs/tags","count":1,"items":[{"id":"user-interface-design/simco","title":"SIMCO","description":"\ud83d\udcc6 2020 - Museums Information System","permalink":"/docs/user-interface-design/simco"}]}')}}]);
