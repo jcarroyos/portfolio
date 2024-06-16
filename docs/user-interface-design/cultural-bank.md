@@ -19,7 +19,7 @@ Implementation of the image manual and guidelines of the Ministry of Culture and
 
 A colorful brand was created mixing basic geometries with a fine serif typeface. The allusion to blocks of information applied is connected with the user experience of accessing trought thousands of resources in this [Bank of contents of the Ministry of Culture of Colombia](https://bancodecontenidos.mincultura.gov.co/).
 
-![UX/UI Design for BC](./assets/bc-qr.jpg)
-![UX/UI Design for BC](./assets/bc-brand.jpg)
-![UX/UI Design for BC](./assets/bc-home.png)
-![UX/UI Design for BC](./assets/bc-pop.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-qr.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-brand.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-home.png)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-pop.jpg)

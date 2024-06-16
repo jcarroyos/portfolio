@@ -23,9 +23,9 @@ Desarrollar la página maestra del sitio web, páginas de inicio de cada sitio, 
 
 Dando prioridad a la accesibilidad de la información, la propuesta de rediseño es tener una interfaz sobria y funcional, agregando además los lineamientos de gobierno en línea.
 
-![UX/UI Design for SIMCO](../../../../../docs/user-interface-design/assets/simco-jcarroyos.jpg)
-![UX/UI Design for SIMCO](../../../../../docs/user-interface-design/assets/simco-home.png)
-![UX/UI Design for SIMCO](../../../../../docs/user-interface-design/assets/simco-dashboard.png)
+![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-jcarroyos.jpg)
+![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-home.png)
+![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-dashboard.png)
 
 ## El código
 
@@ -35,4 +35,4 @@ Aplicación web .NET, código front-end en https://github.com/jcarroyos/simco-we
 
 Este módulo devuelve el servicio de informes de SIMCO a gráficos con los datos agregados. Código encargado a [@laurajunco](https://github.com/laurajunco). Ver el código d3.js en [https://github.com/jcarroyos/simco-dataviz](https://github.com/jcarroyos/simco-dataviz)
 
-![Screencapture of dataviz module](../../../../../docs/user-interface-design/assets/dataviz-d3-laurajunco.png)
+![Screencapture of dataviz module](https://jcarroyos-portfolio.s3.amazonaws.com/docs/dataviz-d3-laurajunco.png)

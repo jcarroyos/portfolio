@@ -41,10 +41,10 @@
   },
   "link.item.label.Virtual environments for museums": {
     "message": "Entornos virtuales para museos",
-    "description": "The label of footer link with label=Virtual environments linking to /blog/tags/virtual-enviroments"
+    "description": "The label of footer link with label=Virtual environments for museums linking to /blog/tags/museology"
   },
   "link.item.label.Hypermedia design": {
     "message": "Diseño hipermedia",
-    "description": "The label of footer link with label=Virtual environments linking to /blog/tags/virtual-enviroments"
+    "description": "The label of footer link with label=Hypermedia design linking to /blog/tags/hypermedia"
   }
 }

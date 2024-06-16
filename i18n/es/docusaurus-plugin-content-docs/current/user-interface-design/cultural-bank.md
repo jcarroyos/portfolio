@@ -19,7 +19,7 @@ Implementación del manual de imagen y lineamientos del Ministerio de Cultura y 
 
 Se creó una marca colorida mezclando geometrías básicas con un tipo de letra serifada fina. La alusión a los bloques de información apilados se relaciona con la experiencia del usuario al acceder a través de miles de recursos en este [Banco de contenidos del Ministerio de Cultura de Colombia](https://bancodecontenidos.mincultura.gov.co/).
 
-![UX/UI Design for BC](../../../../../docs/user-interface-design/assets/bc-qr.jpg)
-![UX/UI Design for BC](../../../../../docs/user-interface-design/assets/bc-brand.jpg)
-![UX/UI Design for BC](../../../../../docs/user-interface-design/assets/bc-home.png)
-![UX/UI Design for BC](../../../../../docs/user-interface-design/assets/bc-pop.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-qr.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-brand.jpg)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-home.png)
+![UX/UI Design for BC](https://jcarroyos-portfolio.s3.amazonaws.com/docs/bc-pop.jpg)

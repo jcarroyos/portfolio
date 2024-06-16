@@ -9,23 +9,23 @@ How do museums take advantage of information technologies and virtual environmen
 
 This course was shared with other teachers, in the first cohorts it was taught together with Philippe Boland and Ana María Moreno Ballesteros. The course of the year 2021 I worked together with [Paola Parra](https://www.linkedin.com/in/paoltricia).
 
-[Click here to see the course program (in spanish)](./program-mmgp-jcarroyos-paoltricia.pdf)
+[Click here to see the course program](https://jcarroyos-portfolio.s3.amazonaws.com/blog/program-mmgp-jcarroyos-paoltricia.pdf)
 
 ## Class pics
 
 :::note Ideation process
-![registro de clase mmgp](./mmgp-1.jpg)
+![registro de clase mmgp](https://jcarroyos-portfolio.s3.amazonaws.com/blog/mmgp-1.jpg)
 
 :::
 
 :::note Dashboard snapshot
-![registro de clase mmgp](./mmgp-2.jpg)
+![registro de clase mmgp](https://jcarroyos-portfolio.s3.amazonaws.com/blog/mmgp-2.jpg)
 :::
 
 :::note structuring information workshop
-![registro de clase mmgp](./mmgp-3.jpg)
+![registro de clase mmgp](https://jcarroyos-portfolio.s3.amazonaws.com/blog/mmgp-3.jpg)
 :::
 
 :::note coding
-![registro de clase mmgp](./mmgp-4.jpg)
+![registro de clase mmgp](https://jcarroyos-portfolio.s3.amazonaws.com/blog/mmgp-4.jpg)
 :::

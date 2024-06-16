@@ -19,8 +19,8 @@ Apoyar las actividades requeridas para la normalización, implementación y mejo
 
 A partir de los tres entornos "Estado, mercado y sociedad", se creó una paleta de colores y una geometría para el logotipo inspirada en el artículo [What Mathematics Can Learn From Classical Music](https://archive.schillerinstitute.com/fid_91-96/944_math_music.html).
 
-![UX/UI Design for SIMUS](../../../../../docs/user-interface-design/assets/simus-5.png)
-![UX/UI Design for SIMUS](../../../../../docs/user-interface-design/assets/simus-4.png)
-![UX/UI Design for SIMUS](../../../../../docs/user-interface-design/assets/simus-3.png)
-![UX/UI Design for SIMUS](../../../../../docs/user-interface-design/assets/simus-2.png)
-![UX/UI Design for SIMUS](../../../../../docs/user-interface-design/assets/simus-1.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-5.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-4.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-3.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-2.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-1.png)

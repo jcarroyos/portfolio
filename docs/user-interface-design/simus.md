@@ -19,8 +19,8 @@ Support the activities required for the standardization, implementation and impr
 
 From the three environments "state, market and society" a color palette and geometry for the logo was created inspired by the article [What Mathematics Can Learn From Classical Music](https://archive.schillerinstitute.com/fid_91-96/944_math_music.html)
 
-![UX/UI Design for SIMUS](./assets/simus-5.png)
-![UX/UI Design for SIMUS](./assets/simus-4.png)
-![UX/UI Design for SIMUS](./assets/simus-3.png)
-![UX/UI Design for SIMUS](./assets/simus-2.png)
-![UX/UI Design for SIMUS](./assets/simus-1.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-5.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-4.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-3.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-2.png)
+![UX/UI Design for SIMUS](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simus-1.png)
