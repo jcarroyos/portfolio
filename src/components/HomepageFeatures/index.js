@@ -7,10 +7,12 @@ const FeatureList = [
     title: "Profile",
     description: (
       <>
-        <img
-          src={require("@site/static/img/sketchbook.png").default}
-          alt="Sketchbook"
-        />
+        <a href="https://github.com/jcarroyos" target="_blank">
+          <img
+            src={require("@site/static/img/sketchbook.png").default}
+            alt="Sketchbook"
+          />
+        </a>
         Creative coder. I always carry a notebook to sketch information,
         diagrams, interfaces, etc.
       </>
@@ -20,10 +22,12 @@ const FeatureList = [
     title: "Teaching",
     description: (
       <>
-        <img
-          src={require("@site/static/img/idea.png").default}
-          alt="Sketchbook"
-        />
+        <a href="https://github.com/jcarroyos-teaching" target="_blank">
+          <img
+            src={require("@site/static/img/idea.png").default}
+            alt="Sketchbook"
+          />
+        </a>
         Data visualization, infographics, virtual environments, and information
         technologies mentor.
       </>

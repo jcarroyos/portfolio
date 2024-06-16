@@ -18,21 +18,21 @@ Based on the idea that infographics in the field of communication can be underst
 ## Class pics
 
 :::note Student project analog infographics
-![registro de clase infografía](./utolima-infografia-1.jpg)
+![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-1.jpg)
 :::
 
 :::note Data collecting in public space
-![registro de clase infografía](./utolima-infografia-2.jpg)
+![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-2.jpg)
 :::
 
 :::note Data collecting in public space
-![registro de clase infografía](./utolima-infografia-3.jpg)
+![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-3.jpg)
 :::
 
 :::note Workshop at https://tell.com.co/
-![registro de clase infografía](./utolima-infografia-4.jpg)
+![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-4.jpg)
 :::
 
 :::note Workshop at https://www.lasillavacia.com/
-![registro de clase infografía](./utolima-infografia-5.jpg)
+![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-5.jpg)
 :::
