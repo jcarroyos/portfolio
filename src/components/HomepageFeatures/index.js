@@ -34,7 +34,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Activism",
+    title: "Initiatives",
     description: (
       <>
         <img
