@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1. Portfolio Intro
+# Portfolio Intro
 
 ![Notebooks introduction to my blog](https://jcarroyos-portfolio.s3.amazonaws.com/blog/notebooks_intro-jcarroyos.jpg)
 
