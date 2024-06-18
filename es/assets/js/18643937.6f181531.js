@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[9468],{1171:s=>{s.exports=JSON.parse('{"label":"d3","permalink":"/es/docs/tags/d-3","allTagsPath":"/es/docs/tags","count":1,"items":[{"id":"develop/simco","title":"SIMCO","description":"\ud83d\udcc6 2020 - Museums Information System","permalink":"/es/docs/develop/simco"}]}')}}]);

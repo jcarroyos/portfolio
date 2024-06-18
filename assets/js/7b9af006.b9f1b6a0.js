@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[6242],{3412:e=>{e.exports=JSON.parse('{"label":"peace","permalink":"/docs/tags/peace","allTagsPath":"/docs/tags","count":1,"items":[{"id":"learning/1137","title":"SCRD","description":"\ud83d\udcc6 2018 - eLearning for Secretar\xeda de Cultura de Bogot\xe1","permalink":"/docs/learning/1137"}]}')}}]);
