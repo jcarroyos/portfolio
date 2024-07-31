@@ -34,6 +34,8 @@ jobs:
     - name: Add SSH key to known hosts
       run: |
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        # Print known_hosts to verify
+        cat ~/.ssh/known_hosts
 
     - name: Deploy to server
       uses: appleboy/ssh-action@master
