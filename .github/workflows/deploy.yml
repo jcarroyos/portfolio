@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Update to Node.js 16 or higher
+          node-version: '16'  # Ensure this version meets Docusaurus requirements
 
       - name: Install dependencies
         run: npm install
@@ -27,14 +27,12 @@ jobs:
 
       - name: Setup SSH key
         run: |
-          echo "${{ secrets.SERVER_SSH_KEY }}" | base64 -d > ~/.ssh/id_rsa
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-        env:
-          SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
 
       - name: Add SSH key to known hosts
         run: |
-          mkdir -p ~/.ssh
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy to server
