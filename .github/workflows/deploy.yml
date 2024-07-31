@@ -17,13 +17,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '14'  # Update this to your Node.js version
+          node-version: '16'  # Update to Node.js 16 or higher
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
-        run: npm run build  # Update this if your build command is different
+        run: npm run build
 
       - name: Setup SSH key
         run: |
