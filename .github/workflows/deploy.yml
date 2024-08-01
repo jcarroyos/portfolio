@@ -1,4 +1,4 @@
-name: Deploy Docusaurus Website
+name: Deploy to AWS Lightsail
 
 on:
   push:
@@ -6,9 +6,10 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     environment: production
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -30,11 +31,17 @@ jobs:
         echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        
+        # Debug known_hosts
+        echo "Known hosts file contents:"
+        cat ~/.ssh/known_hosts
+        
         # Start the ssh-agent and add the key
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/id_rsa
-        # Verify the known hosts file
-        cat ~/.ssh/known_hosts
+        
+        # Debug SSH connection
+        ssh -o StrictHostKeyChecking=accept-new -T ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} || { echo "SSH connection failed"; exit 1; }
 
     - name: Deploy to server
       uses: appleboy/ssh-action@master
@@ -46,4 +53,5 @@ jobs:
         script: |
           sudo apt-get update
           sudo apt-get install -y rsync
-          rsync -avz --delete ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/bitnami/apache/htdocs/
+          rsync -avz --delete ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/bitnami/apache/htdocs/ || { echo "rsync failed"; exit 1; }
+        debug: true
