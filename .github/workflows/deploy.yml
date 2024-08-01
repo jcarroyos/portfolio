@@ -33,6 +33,9 @@ jobs:
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
         # Verify the known hosts file
         cat ~/.ssh/known_hosts
+        # Verify the SSH key file
+        ls -la ~/.ssh
+        cat ~/.ssh/id_rsa
 
     - name: Deploy to server
       uses: appleboy/ssh-action@master
