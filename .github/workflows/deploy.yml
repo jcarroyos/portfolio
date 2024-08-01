@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy to AWS Lightsail
 
 on:
   push:
@@ -25,17 +25,12 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Setup SSH key
+    - name: Setup SSH and known hosts
       run: |
         mkdir -p ~/.ssh
         echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-
-    - name: Add SSH key to known hosts
-      run: |
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
-        # Print known_hosts to verify
-        cat ~/.ssh/known_hosts
 
     - name: Deploy to server
       uses: appleboy/ssh-action@master
@@ -45,5 +40,7 @@ jobs:
         key: ${{ secrets.SERVER_SSH_KEY }}
         port: 22
         script: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
           rsync -avz --delete ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/bitnami/apache/htdocs/
         debug: true
