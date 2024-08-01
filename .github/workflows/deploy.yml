@@ -31,6 +31,9 @@ jobs:
         echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        # Start the ssh-agent and add the key
+        eval "$(ssh-agent -s)"
+        ssh-add ~/.ssh/id_rsa
         # Verify the known hosts file
         cat ~/.ssh/known_hosts
 
@@ -46,4 +49,3 @@ jobs:
           sudo apt-get install -y rsync
           rsync -avz --delete ./build/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/bitnami/apache/htdocs/
         debug: true
-        known_hosts: ${{ secrets.SERVER_HOST }}
