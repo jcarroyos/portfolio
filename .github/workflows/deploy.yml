@@ -31,6 +31,8 @@ jobs:
         echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+        # Verify the known hosts file
+        cat ~/.ssh/known_hosts
 
     - name: Deploy to server
       uses: appleboy/ssh-action@master
