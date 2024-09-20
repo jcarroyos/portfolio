@@ -1,5 +1,37 @@
 # Copyright
 
-Copyright © JUAN CARLOS ARROYO SOSA
+All visual works and creative code published on this site are the property of **JUAN CARLOS ARROYO SOSA** (@jcarroyos). All rights reserved.
 
-All rights reserved.
+The following frameworks and libraries were additionally utilized:
+
+## Frameworks and Libraries
+
+### Docusaurus
+- **License**: MIT
+- **Packages**:
+  - `@docusaurus/core`
+  - `@docusaurus/preset-classic`
+  - `@docusaurus/module-type-aliases`
+
+### React
+- **License**: MIT
+- **Packages**:
+  - `react`
+  - `react-dom`
+  - `@mdx-js/react`
+
+### AWS SDK
+- **License**: Apache-2.0
+- **Package**: `aws-sdk`
+
+### clsx
+- **License**: MIT
+- **Package**: `clsx`
+
+### Prism React Renderer
+- **License**: MIT
+- **Package**: `prism-react-renderer`
+
+### React Modal
+- **License**: MIT
+- **Package**: `react-modal`
