@@ -2,7 +2,13 @@ img {
   max-width: 100%;
   display: block;
 }
-
+.ReactModal__Content.ReactModal__Content--after-open {
+  inset: 10% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow: hidden !important;
+}
 figure {
   margin: 0;
   display: grid;
@@ -51,10 +57,11 @@ figcaption {
 }
 
 .modal-image-container {
-  height: 100%;
+  max-height: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  
   img {
     margin: 0px auto;
     max-height: 90%;
