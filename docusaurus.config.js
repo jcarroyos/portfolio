@@ -64,12 +64,7 @@ const config = {
             label: "Portfolio",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/gallery", label: "Gallery", position: "left" },
-          {
-            to: "https://jcarroyos-portfolio.s3.amazonaws.com/CV-jcarroyos-2024.pdf",
-            label: "CV",
-            position: "left",
-          },
+          { to: "/gallery", label: "Gallery", position: "left" }
         ],
       },
       footer: {
