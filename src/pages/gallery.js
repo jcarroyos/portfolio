@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
-import Gallery from "@site/src/components/GridGallery";
+import { MastodonGallery } from "@site/src/components/MastodonGallery";
 
 export default function Hello() {
   return (
@@ -8,7 +8,7 @@ export default function Hello() {
       title="My Gallery"
       description="paintings, sketches, drawings, doodles"
     >
-      <Gallery />
+      <MastodonGallery />
     </Layout>
   );
 }

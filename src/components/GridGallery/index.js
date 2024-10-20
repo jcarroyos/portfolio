@@ -18,7 +18,7 @@ const listOfImages = [
   `${bucketUrl}Tribute to Pablo Solano.jpg`,
 ];
 
-Modal.setAppElement("#__docusaurus"); // Esto es necesario para la accesibilidad
+Modal.setAppElement("#__docusaurus");
 
 class App extends React.Component {
   constructor(props) {
