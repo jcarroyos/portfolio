@@ -13,8 +13,7 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-        Creative coder. I always carry a notebook to sketch information,
-        diagrams, interfaces, etc.
+        I'm a hybrid professional, blending artistry and coding. As a creative coder, I constantly bridge the gap between design and technology.
       </>
     ),
   },
@@ -28,21 +27,19 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-        Data visualization, infographics, virtual environments, and information
-        technologies mentor.
+        Data visualization, infographics, virtual environments, and information technologies mentor.
       </>
     ),
   },
   {
-    title: "Initiatives",
+    title: "Creating",
     description: (
       <>
         <img
           src={require("@site/static/img/ok.png").default}
           alt="Sketchbook"
         />
-        Willing to support causes through ideation of digital projects for
-        social, cultural, and memorial development.
+        Developing digital projects rooted in research, with a focus on promoting art and cultural growth.
       </>
     ),
   },
