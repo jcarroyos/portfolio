@@ -7,7 +7,7 @@ const FeatureList = [
     title: "Profile",
     description: (
       <>
-        <a href="https://github.com/jcarroyos" target="_blank">
+        <a href="/docs/intro" target="_self">
           <img
             src={require("@site/static/img/sketchbook.png").default}
             alt="Sketchbook"
@@ -21,7 +21,7 @@ const FeatureList = [
     title: "Teaching",
     description: (
       <>
-        <a href="https://github.com/jcarroyos-teaching" target="_blank">
+        <a href="/blog" target="_self">
           <img
             src={require("@site/static/img/idea.png").default}
             alt="Sketchbook"
@@ -35,11 +35,13 @@ const FeatureList = [
     title: "Creating",
     description: (
       <>
-        <img
-          src={require("@site/static/img/ok.png").default}
-          alt="Sketchbook"
-        />
-        Developing digital projects rooted in research, with a focus on promoting art and cultural growth.
+        <a href="/gallery" target="_self">  
+          <img
+            src={require("@site/static/img/ok.png").default}
+            alt="Sketchbook"
+          />
+        </a>
+          Developing digital projects rooted in research, with a focus on promoting art and cultural growth.
       </>
     ),
   },

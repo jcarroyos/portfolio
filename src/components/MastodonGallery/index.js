@@ -51,7 +51,7 @@ export function MastodonGallery() {
               onClick={() => handleOpenModal(image)}
             />
             <figcaption>
-              {image.previewUrl.substring(image.previewUrl.lastIndexOf("/") + 1).split(".", 1)}
+              {image.post.id}
             </figcaption>
           </figure>
         ))}
