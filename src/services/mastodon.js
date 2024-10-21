@@ -10,7 +10,6 @@ async function fetchMastodonPosts() {
       media_preview_urls: post.media_attachments.map(attachment => attachment.preview_url),
       media_urls: post.media_attachments.map(attachment => attachment.url)
     }));
-    console.log('Fetched Mastodon posts:', postsWithMedia);
     return postsWithMedia;
   } catch (error) {
     console.error('Error fetching Mastodon posts:', error.message);
