@@ -41,7 +41,7 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-          Developing digital projects rooted in research, with a focus on promoting art and cultural growth.
+          Developing handcrafted or digital projects rooted in research, with a focus on promoting art and cultural growth.
       </>
     ),
   },
