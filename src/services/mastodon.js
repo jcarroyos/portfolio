@@ -1,9 +1,12 @@
-// src/services/mastodon.js
 const axios = require('axios');
 
-async function fetchMastodonPosts() {
+async function fetchMastodonPosts(max_id = null, since_id = null, limit = 8) {
   try {
-    const response = await axios.get('https://mastodon.art/api/v1/accounts/109602978503620324/statuses');
+    let url = `https://mastodon.art/api/v1/accounts/109602978503620324/statuses?limit=${limit}`;
+    if (max_id) url += `&max_id=${max_id}`;
+    if (since_id) url += `&since_id=${since_id}`;
+
+    const response = await axios.get(url);
     const posts = response.data;
     const postsWithMedia = posts.map(post => ({
       ...post,
