@@ -7,6 +7,8 @@ tags: [infographics]
 
 From 2016 to 2021 I had the beautiful experience in the role of professor for **Infographics** at [University of Tolima](https://ut.edu.co/). I learned and shared a lot during those years of teaching.
 
+<!--truncate-->
+
 With a practical approach, this course presents the evolution of infographics, the workshop focus on the core questions:
 
 - what is infographics?

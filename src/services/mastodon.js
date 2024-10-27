@@ -1,25 +1,54 @@
-const axios = require('axios');
+const BASE_URL = 'https://mastodon.art/api/v1/accounts/109602978503620324/statuses';
+const ACCOUNT_URL = 'https://mastodon.art/api/v1/accounts/109602978503620324';
 
-async function fetchMastodonPosts(max_id = null, since_id = null, limit = 8) {
+/**
+ * Fetch paginated Mastodon posts.
+ * @param {string|null} maxId - The maximum ID of the posts to fetch.
+ * @param {string|null} sinceId - The minimum ID of the posts to fetch.
+ * @param {number} limit - The number of posts to fetch.
+ * @returns {Promise<Object>} - The paginated posts, pagination info, and total posts count.
+ */
+async function fetchPaginatedPosts(maxId = null, sinceId = null, limit = 12) {
+  const url = new URL(BASE_URL);
+  url.searchParams.append('limit', limit);
+  if (maxId) url.searchParams.append('max_id', maxId);
+  if (sinceId) url.searchParams.append('since_id', sinceId);
+
   try {
-    let url = `https://mastodon.art/api/v1/accounts/109602978503620324/statuses?limit=${limit}`;
-    if (max_id) url += `&max_id=${max_id}`;
-    if (since_id) url += `&since_id=${since_id}`;
+    const [response, accountResponse] = await Promise.all([
+      fetch(url.toString()),
+      fetch(ACCOUNT_URL)
+    ]);
 
-    const response = await axios.get(url);
-    const posts = response.data;
-    const postsWithMedia = posts.map(post => ({
-      ...post,
-      media_preview_urls: post.media_attachments.map(attachment => attachment.preview_url),
-      media_urls: post.media_attachments.map(attachment => attachment.url)
-    }));
-    return postsWithMedia;
+    if (!response.ok) {
+      throw new Error(`Error fetching Mastodon posts: ${response.statusText}`);
+    }
+    if (!accountResponse.ok) {
+      throw new Error(`Error fetching Mastodon account info: ${accountResponse.statusText}`);
+    }
+
+    const data = await response.json();
+    const accountData = await accountResponse.json();
+
+
+    const posts = data.map(post => ({
+      id: post.id,
+      previewUrl: post.media_attachments?.[0]?.preview_url || '',
+      fullUrl: post.media_attachments?.[0]?.url || '',
+      content: post.content,
+      createdAt: post.created_at,
+      url: post.url
+    })).filter(post => post.previewUrl && post.fullUrl);
+
+    const hasNext = data.length === limit;
+    const hasPrevious = !!sinceId;
+    const totalPostsWithImages = accountData.statuses_count;
+
+    return { posts, hasNext, hasPrevious, totalPosts: totalPostsWithImages };
   } catch (error) {
-    console.error('Error fetching Mastodon posts:', error.message);
+    console.error('Error in fetchPaginatedPosts:', error);
     throw error;
   }
 }
 
-module.exports = {
-  fetchMastodonPosts,
-};
+export { fetchPaginatedPosts };

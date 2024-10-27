@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
-import { MastodonGallery } from "@site/src/components/MastodonGallery";
+import MastodonGallery from "@site/src/components/MastodonGallery";
 
-export default function Hello() {
+export default function Gallery() {
   return (
     <Layout
       title="My Gallery"
