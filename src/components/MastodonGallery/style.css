@@ -111,7 +111,13 @@ img {
   .landscape {
     grid-column-end: span 2;
   }
-  
+  .infinite-scroll-component__outerdiv cite {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    color: var(--ifm-color-primary);
+    font-size: large;
+}
   /* Responsive Styles */
   @media (min-width: 600px) {
     .gallery-container {
