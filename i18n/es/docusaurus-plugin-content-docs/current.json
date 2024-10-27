@@ -26,5 +26,29 @@
   "sidebar.tutorialSidebar.category.4. eLearning.link.generated-index.description": {
     "message": "Experiencias pedagógicas para ambientes virtuales",
     "description": "The generated-index page description for category 4. eLearning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Develop": {
+    "message": "Develop",
+    "description": "The label for category Develop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Develop.link.generated-index.description": {
+    "message": "My public github repositories",
+    "description": "The generated-index page description for category Develop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mixed Reality": {
+    "message": "Mixed Reality",
+    "description": "The label for category Mixed Reality in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mixed Reality.link.generated-index.description": {
+    "message": "The metaverse is older than ~ panela ~",
+    "description": "The generated-index page description for category Mixed Reality in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Learning Journeys": {
+    "message": "Learning Journeys",
+    "description": "The label for category Learning Journeys in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Learning Journeys.link.generated-index.description": {
+    "message": "Collection of teaching and learning experiences.",
+    "description": "The generated-index page description for category Learning Journeys in sidebar tutorialSidebar"
   }
 }

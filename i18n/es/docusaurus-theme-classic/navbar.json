@@ -14,5 +14,9 @@
   "item.label.Gallery": {
     "message": "Galería",
     "description": "Navbar item with label Gallery"
+  },
+  "logo.alt": {
+    "message": "A a sketched circle",
+    "description": "The alt text of navbar logo"
   }
 }
