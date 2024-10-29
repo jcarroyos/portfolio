@@ -84,7 +84,7 @@ export default function MastodonGallery() {
             <div className="post-metadata">
               <div dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
               <p><strong>Created At:</strong> {new Date(selectedPost.createdAt).toLocaleString()}</p>
-              <p><strong>Source post:</strong> <a href={selectedPost.url} target="_blank" rel="noopener noreferrer">{selectedPost.url}</a></p>
+              <p><a href={selectedPost.url} target="_blank" rel="noopener noreferrer">Source post</a></p>
             </div>
           )}
         </div>

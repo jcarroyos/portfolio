@@ -4,10 +4,15 @@ import MastodonGallery from "@site/src/components/MastodonGallery";
 export default function Gallery() {
   return (
     <Layout
-      title="My Gallery"
-      description="paintings, sketches, drawings, doodles"
+      title="Work in progress"
+      description="A creative feed of ongoing work: sketches, ideas, and work-in-progress updates shared on my Mastodon account."
     >
-      <MastodonGallery />
+            <div style={{ padding: '20px' }}>
+        <p>
+          A creative feed of ongoing work: sketches, ideas, and work-in-progress updates shared on my Mastodon account.
+        </p>
+        <MastodonGallery />
+      </div>
     </Layout>
   );
 }
