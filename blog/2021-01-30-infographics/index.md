@@ -20,21 +20,18 @@ Based on the idea that infographics in the field of communication can be underst
 ## Class pics
 
 :::note Student project analog infographics
-![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-1.jpg)
+![registro de clase infografía](https://cdn.masto.host/mastodonart/media_attachments/files/113/393/977/071/494/730/original/6bfaf8e2e7f4c882.jpg)
 :::
 
-:::note Data collecting in public space
-![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-2.jpg)
-:::
 
 :::note Data collecting in public space
-![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-3.jpg)
+![registro de clase infografía](https://cdn.masto.host/mastodonart/media_attachments/files/113/393/977/048/760/026/original/b555ab6ab0f1982e.jpg)
 :::
 
 :::note Workshop at https://tell.com.co/
-![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-4.jpg)
+![registro de clase infografía](https://cdn.masto.host/mastodonart/media_attachments/files/113/393/977/013/021/740/original/83a4b1ca9b45bee9.jpg)
 :::
 
 :::note Workshop at https://www.lasillavacia.com/
-![registro de clase infografía](https://jcarroyos-portfolio.s3.amazonaws.com/blog/utolima-infografia-5.jpg)
+![registro de clase infografía](https://cdn.masto.host/mastodonart/media_attachments/files/113/393/993/332/481/148/original/320e824d2e6dc39d.jpg)
 :::
