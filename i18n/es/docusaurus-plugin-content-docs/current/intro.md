@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 1. Introducción al portafolio
 
-![Notebooks introduction to my blog](https://jcarroyos-portfolio.s3.amazonaws.com/blog/notebooks_intro-jcarroyos.jpg)
+![Notebooks introduction to my blog](https://cdn.masto.host/mastodonart/media_attachments/files/113/394/002/335/520/215/original/7f4b0c9419bf325c.jpg)
 
 Soy lo que se podría llamar un profesional híbrido, alguien que fusiona el arte con la tecnología. Mi trabajo gira en torno a la idea de conectar el diseño con el código para crear experiencias digitales que sean interactivas, atractivas y que, sobre todo, promuevan el crecimiento cultural y artístico. Me apasiona la creación de contenido interactivo que vaya más allá de los medios tradicionales, explorando entornos inmersivos, aplicaciones web y proyectos que involucren tanto el mundo digital como el físico.
 
