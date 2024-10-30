@@ -64,7 +64,7 @@ const config = {
             label: "Portfolio",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/gallery", label: "Work in progress", position: "left" },
+          { to: "/gallery", label: "WorkInProgress", position: "left" },
           { to: "/gallery-flickr", label: "Curated", position: "left" }
         ],
       },
