@@ -36,9 +36,10 @@ img {
   }
   
   .modal-image-container img {
-    width: 100%;
-    height: auto;
+    max-height: 100%; 
+    max-width: 100%; 
     object-fit: cover;
+    aspect-ratio: attr(data-aspect-ratio); 
   }
   
   .post-metadata {
