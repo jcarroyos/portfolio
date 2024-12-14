@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Humboldt and the Americas
 
-![Immersive game prototype](https://jcarroyos-portfolio.s3.amazonaws.com/docs/9LcCw95utQF_720.png)
+![Immersive game prototype](https://jcarroyos-uploads.s3.amazonaws.com/docs/9LcCw95utQF_720.png)
 📆 2019
 
 Participants in the mixed reality Hackathon "Humboldt and the Americas", our team
@@ -14,26 +14,26 @@ Participants in the mixed reality Hackathon "Humboldt and the Americas", our tea
 
 Camilo Jimenez, Juan Camilo Fonnegra, Juan Carlos Arroyo Sosa, Gladys Viviana Gomez Rojas, Thomas Wagner. Modeling and rigging: Juan Camilo Salamanca.
 
-![Team La Piragua Humboldt](https://jcarroyos-portfolio.s3.amazonaws.com/docs/team-killing-humboldt.jpg)
+![Team La Piragua Humboldt](https://jcarroyos-uploads.s3.amazonaws.com/docs/team-killing-humboldt.jpg)
 
 [Press release](https://www.goethe.de/prj/hya/es/inh/hackaton2.html "En Colombia, la Hackatón de realidad mixta “Humboldt y las Américas” ya tiene ganador") | [Selection document](https://www.goethe.de/prj/hya/es/inh/hacka.html "Estos son los seleccionados de México, Colombia y Perú para participar en la Hackatón de realidad mixta")
 
 ## Screenshots
 
-![Gamelab Berlin](https://jcarroyos-portfolio.s3.amazonaws.com/docs/gamelab-berlin.jpg)
-![Screenshot 1](https://jcarroyos-portfolio.s3.amazonaws.com/docs/screenshot_01.png)
-![Screenshot 2](https://jcarroyos-portfolio.s3.amazonaws.com/docs/screenshot_02.jpg)
+![Gamelab Berlin](https://jcarroyos-uploads.s3.amazonaws.com/docs/gamelab-berlin.jpg)
+![Screenshot 1](https://jcarroyos-uploads.s3.amazonaws.com/docs/screenshot_01.png)
+![Screenshot 2](https://jcarroyos-uploads.s3.amazonaws.com/docs/screenshot_02.jpg)
 
 ## Development framework
 
-![Immersive game prototype](https://jcarroyos-portfolio.s3.amazonaws.com/docs/viviana.jpg)
+![Immersive game prototype](https://jcarroyos-uploads.s3.amazonaws.com/docs/viviana.jpg)
 
 We develop the prototype using Unity and [Microsoft Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity). We tested the VR environment with the Samsung Gear VR glasses.
 
 ## Documents
 
-- [Killing Alex Game Concept Document](https://jcarroyos-portfolio.s3.amazonaws.com/docs/Killing%20Alex%20Game%20Concept%20Document.pdf)
-- [Killing Alex Game Design Document](https://jcarroyos-portfolio.s3.amazonaws.com/docs/Killing%20Alex%20Game%20Design%20Document.pdf)
+- [Killing Alex Game Concept Document](https://jcarroyos-uploads.s3.amazonaws.com/docs/Killing%20Alex%20Game%20Concept%20Document.pdf)
+- [Killing Alex Game Design Document](https://jcarroyos-uploads.s3.amazonaws.com/docs/Killing%20Alex%20Game%20Design%20Document.pdf)
 
 ## Code
 

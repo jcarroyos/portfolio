@@ -1,5 +1,5 @@
 <video width="100%" controls>
-    <source src="https://jcarroyos-portfolio.s3.amazonaws.com/gh-videos/mvmp_archive.mp4" type="video/mp4"></source>
+    <source src="https://jcarroyos-uploads.s3.amazonaws.com/gh-videos/mvmp_archive.mp4" type="video/mp4"></source>
     Virtual Museum Memories of Journalism
 </video>
 
