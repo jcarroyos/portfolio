@@ -36,10 +36,6 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -63,7 +59,6 @@ const config = {
             position: "left",
             label: "Portfolio",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           { to: "/gallery", label: "WorkInProgress", position: "left" },
           { to: "/gallery-flickr", label: "Curated", position: "left" }
         ],
@@ -104,24 +99,7 @@ const config = {
                 to: "https://www.datavisualizationsociety.org/mentorship",
               },
             ],
-          },
-          {
-            title: "I teach",
-            items: [
-              {
-                label: "Infographics",
-                to: "/blog/tags/infographics",
-              },
-              {
-                label: "Virtual environments for museums",
-                to: "/blog/tags/museology",
-              },
-              {
-                label: "Hypermedia design",
-                to: "/blog/tags/hypermedia",
-              },
-            ],
-          },
+          }
         ],
       },
       prism: {

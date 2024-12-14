@@ -19,9 +19,9 @@ To make the diagnosis of the site [SIMCO](http://simco.museoscolombianos.gov.co/
 
 Giving priority to information accessibility, the redesign proposal is to have a sober and functional interface, also adding the online government guidelines.
 
-![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-jcarroyos.jpg)
-![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-home.png)
-![UX/UI Design for SIMCO](https://jcarroyos-portfolio.s3.amazonaws.com/docs/simco-dashboard.png)
+![UX/UI Design for SIMCO](https://jcarroyos-uploads.s3.amazonaws.com/docs/simco-jcarroyos.jpg)
+![UX/UI Design for SIMCO](https://jcarroyos-uploads.s3.amazonaws.com/docs/simco-home.png)
+![UX/UI Design for SIMCO](https://jcarroyos-uploads.s3.amazonaws.com/docs/simco-dashboard.png)
 
 ## The code
 
@@ -31,4 +31,4 @@ Giving priority to information accessibility, the redesign proposal is to have a
 
 This module returns the report service from SIMCO to graphs with the aggregated data. Code commissioned to [@laurajunco](https://github.com/laurajunco). View the D3.js code in [https://github.com/jcarroyos/simco-dataviz](https://github.com/jcarroyos/simco-dataviz)
 
-![Screencapture of dataviz module](https://jcarroyos-portfolio.s3.amazonaws.com/docs/dataviz-d3-laurajunco.png)
+![Screencapture of dataviz module](https://jcarroyos-uploads.s3.amazonaws.com/docs/dataviz-d3-laurajunco.png)
