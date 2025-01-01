@@ -21,13 +21,13 @@ const FeatureList = [
     title: "Teaching",
     description: (
       <>
-        <a href="/blog" target="_self">
+        <a href="https://github.com/jcarroyos-teaching" target="_blank">
           <img
             src={require("@site/static/img/idea.png").default}
             alt="Sketchbook"
           />
         </a>
-        Data visualization, infographics, virtual environments, and information technologies mentor.
+        Web Development, dataviz, infographics, virtual environments, and information technologies.
       </>
     ),
   },
