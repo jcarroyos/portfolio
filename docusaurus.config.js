@@ -99,6 +99,19 @@ const config = {
                 to: "https://www.datavisualizationsociety.org/mentorship",
               },
             ],
+          },
+          {
+            title: "Sharing ideas at",
+            items: [
+              {
+                label: "Creative coding calendar",
+                to: "https://pineapple-bongo-cbf.notion.site/Creative-coding-calendar-17c6671be95c80328ab0f23e92e88a92",
+              },
+              {
+                label: "are.na/jcarroyos-art",
+                to: "https://www.are.na/jcarroyos-art/",
+              },
+            ],
           }
         ],
       },
