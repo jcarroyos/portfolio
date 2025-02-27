@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "jcarroyos",
-  tagline: "Portfolio",
+  title: "@arroyomakedev",
+  tagline: "Hardcoded Creativity: Brutalist Digital Craft & Interactive Innovation",
   url: "https://jcarroyos.art",
   baseUrl: "/",
   onBrokenLinks: "ignore",
@@ -103,10 +103,7 @@ const config = {
           {
             title: "Sharing ideas at",
             items: [
-              {
-                label: "Creative coding calendar",
-                to: "https://pineapple-bongo-cbf.notion.site/Creative-coding-calendar-17c6671be95c80328ab0f23e92e88a92",
-              },
+
               {
                 label: "are.na/jcarroyos-art",
                 to: "https://www.are.na/jcarroyos-art/",
@@ -119,6 +116,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        { name: 'description', content: 'Hardcoded Creativity: Brutalist Digital Craft & Interactive Innovation by jcarroyos' },
+      ],
     }),
 };
 
