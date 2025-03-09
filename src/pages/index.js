@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Hardcoded Creativity: Brutalist Digital Craft & Interactive Innovation"
+      description={`${siteConfig.tagline}`}
     >
       <HomepageHeader />
       <main>

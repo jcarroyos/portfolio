@@ -19,13 +19,6 @@ const config = {
   organizationName: "jcarroyos", // Usually your GitHub org/user name.
   projectName: "portfolio", // Usually your repo name.
   deploymentBranch: "gh-pages",
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "es"],
-  },
 
   presets: [
     [
