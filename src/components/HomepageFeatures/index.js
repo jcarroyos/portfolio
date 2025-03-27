@@ -35,7 +35,7 @@ const FeatureList = [
     title: "Coder",
     description: (
       <div className="landing">
-        <a href="https://github.com/jcarroyos-teaching" target="_blank">
+        <a href="https://github.com/jcarroyos" target="_blank">
           <img
             src={require("@site/static/img/idea.png").default}
             alt="Sketchbook"
