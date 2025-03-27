@@ -45,3 +45,21 @@
   padding: 20px;
   width: 220px;
 }
+h1.inner-titles {
+  font-size: 3rem;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+  color: var(--ifm-color-primary-darkest);
+}
+.theme-doc-markdown.markdown h1, h1.title_ezIU {
+  font-size: 4rem;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+  color: var(--ifm-color-primary-darkest);
+}
