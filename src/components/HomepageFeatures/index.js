@@ -4,37 +4,23 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Profile",
+    title: "I'm",
     description: (
-      <>
+      <div className="landing">
         <a href="/docs/intro" target="_self">
           <img
             src={require("@site/static/img/sketchbook.png").default}
             alt="Sketchbook"
           />
         </a>
-        I'm a hybrid professional, blending artistry and coding. As a creative coder, I constantly bridge the gap between design and technology.
-      </>
+        Hybrid professional, blending art and coding. I constantly bridge the gap between design and technology.
+      </div>
     ),
   },
   {
-    title: "Teaching",
+    title: "Creative",
     description: (
-      <>
-        <a href="https://github.com/jcarroyos-teaching" target="_blank">
-          <img
-            src={require("@site/static/img/idea.png").default}
-            alt="Sketchbook"
-          />
-        </a>
-        Web Development, dataviz, infographics, virtual environments, and information technologies.
-      </>
-    ),
-  },
-  {
-    title: "Creating",
-    description: (
-      <>
+      <div className="landing">
         <a href="/gallery" target="_self">  
           <img
             src={require("@site/static/img/ok.png").default}
@@ -42,7 +28,21 @@ const FeatureList = [
           />
         </a>
           Developing handcrafted or digital projects rooted in research, with a focus on promoting art and cultural growth.
-      </>
+      </div>
+    ),
+  },
+  {
+    title: "Coder",
+    description: (
+      <div className="landing">
+        <a href="https://github.com/jcarroyos-teaching" target="_blank">
+          <img
+            src={require("@site/static/img/idea.png").default}
+            alt="Sketchbook"
+          />
+        </a>
+        Web Development, dataviz, infographics, virtual environments, and information technologies.
+      </div>
     ),
   },
 ];

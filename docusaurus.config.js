@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "@arroyomakedev",
-  tagline: "Hardcoded Creativity: Brutalist Digital Craft & Interactive Innovation",
+  title: "while art: code() ",
+  tagline: "Digital Work that feels sublime",
   url: "https://jcarroyos.art",
   baseUrl: "/",
   onBrokenLinks: "ignore",
@@ -53,7 +53,7 @@ const config = {
             label: "Portfolio",
           },
           { to: "/gallery", label: "WorkInProgress", position: "left" },
-          { to: "/gallery-flickr", label: "Curated", position: "left" }
+          { to: "/gallery-flickr", label: "Artifacts", position: "left" }
         ],
       },
       footer: {

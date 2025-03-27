@@ -3,7 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Doto:wght@500&display=swap');
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #00c8de;
@@ -27,4 +27,21 @@
   --ifm-color-primary-lighter: #00e3eb;
   --ifm-color-primary-lightest: #003b42;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.hero__title {
+  font-size: 4rem;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.landing img {
+  margin: 0 auto;
+  padding: 20px;
+  width: 220px;
 }
