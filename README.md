@@ -1,5 +1,4 @@
 # My portfolio
-
-![-arroyomakedev-arroyomakedev-02-27-2025_05_03_PM](https://github.com/user-attachments/assets/568213d1-24ff-4ffb-9730-a5d1af64f113)
+<img width="1374" alt="Screenshot 2025-03-27 at 8 57 05 AM" src="https://github.com/user-attachments/assets/738e78f9-bd25-4b4b-8673-9208ee4e4930" />
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
