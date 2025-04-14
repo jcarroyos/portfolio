@@ -1,0 +1,47 @@
+:root {
+  --docusaurus-tag-list-border: var(--ifm-color-emphasis-300);
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+  margin: 0.2em;
+  font-weight: 500;
+}
+
+.tag:hover {
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-darkest);
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tagRegular {
+  font-size: inherit;
+}
+
+.tagWithCount {
+  font-size: inherit;
+}
+
+
+.tagWithCount span {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-radius: 50%;
+  padding: 0.1em 0.4em;
+  font-size: 0.7em;
+  margin-left: 0.4em;
+  min-width: 1.2em;
+  height: 1.2em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
