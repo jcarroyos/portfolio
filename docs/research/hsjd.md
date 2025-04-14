@@ -1,2 +1,2 @@
-# HSJD
+# Hospital San Juan de Dios
 ...

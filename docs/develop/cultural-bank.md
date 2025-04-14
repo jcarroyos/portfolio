@@ -1,11 +1,8 @@
 ---
-sidebar_position: 3
 tags: [.NET, branding]
 ---
 
-# BC
-
-📆 2018 - Cultural Content Bank
+# Cultural Content Bank
 
 ## The order
 

@@ -1,11 +1,8 @@
 ---
-sidebar_position: 1
 tags: [.NET, d3, dataviz, museums]
 ---
 
-# SIMCO
-
-📆 2020 - Museums Information System
+# Museums Information System
 
 ## The order
 

@@ -1,11 +1,8 @@
 ---
-sidebar_position: 2
 tags: [.NET, branding]
 ---
 
-# SIMUS
-
-📆 2019 - Music Information System
+# Music Information System
 
 ## The order
 
