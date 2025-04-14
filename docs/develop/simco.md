@@ -1,10 +1,8 @@
 ---
-tags: [.NET, d3, dataviz, museums]
+tags: [museums, .NET, ux, ui, branding]
 ---
 
 # Museums Information System
-
-## The order
 
 Redesign and implement the frontend environment of the Colombian Museum Information System –SIMCO–, improving the user experience and visual design within the framework of activities that allow the dissemination of cultural heritage by the year 2020.
 

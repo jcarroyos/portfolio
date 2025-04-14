@@ -1,6 +1,9 @@
-# The Rise of Hypermedia Programming  
+---
+tags: [hypermedia, programming, design, AI, learning]
+---
 
-Juan Carlos Arroyo Sosa • jcarroyos.art • Hypermedia Design Lecturer  
+
+# The Rise of Hypermedia Programming  
 
 In March 1989, Tim Berners-Lee presented a document titled "Information Management: A Proposal," where in the bottom left corner of the diagram appeared a word that would forever change our relationship with information: "Hypermedia." That modest term, relegated to a corner of the diagram, represented a revolutionary vision that his supervisor described as "Vague, but exciting." Three decades later, that "vague but exciting" idea has radically transformed the way we communicate, learn, and create.  
 
@@ -43,3 +46,4 @@ Experimentation with traditional formats has also found a space within this new 
 
 > Berners-Lee’s "vague but exciting" idea has evolved into a field of infinite concrete possibilities. You are the creators of those possibilities.
 
+Juan Carlos Arroyo Sosa • jcarroyos.art • Hypermedia Design Lecturer  

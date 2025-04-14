@@ -1,10 +1,8 @@
 ---
-tags: [.NET, branding]
+tags: [ux, ui, design, branding]
 ---
 
 # Music Information System
-
-## The order
 
 Logo creation, implementation and improvement of the user interface for the _Sistema de Información de la Música_ SIMUS at Colombian Ministry of Culture.
 
