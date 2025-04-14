@@ -20,6 +20,9 @@ const config = {
   projectName: "portfolio", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
+  // Client modules for custom functionality
+  clientModules: [require.resolve('./src/clientModules.js')],
+
   presets: [
     [
       "classic",
@@ -94,14 +97,7 @@ const config = {
             ],
           },
           {
-            title: "Sharing ideas at",
-            items: [
-
-              {
-                label: "are.na/jcarroyos-art",
-                to: "https://www.are.na/jcarroyos-art/",
-              },
-            ],
+            title: "My key tags",
           }
         ],
       },

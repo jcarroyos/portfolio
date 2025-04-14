@@ -13,7 +13,7 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-        Hybrid professional, blending art and coding. I constantly bridge the gap between design and technology.
+        <p>Hybrid professional, blending art and coding. I constantly bridge the gap between design and technology.</p>
       </div>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-          Developing handcrafted or digital projects rooted in research, with a focus on promoting art and cultural growth.
+          <p>Developing handcrafted or digital projects rooted in research, with a focus on promoting art and cultural growth.</p>
       </div>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList = [
             alt="Sketchbook"
           />
         </a>
-        Web Development, dataviz, infographics, virtual environments, and information technologies.
+        <p>Web Development, dataviz, infographics, virtual environments, and information technologies.</p>
       </div>
     ),
   },

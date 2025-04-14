@@ -1,0 +1,58 @@
+.top-tags-container {
+  padding: 0;
+  margin: 0;
+}
+
+.top-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.top-tag-item {
+  transition: transform 0.2s ease-in-out;
+}
+
+.top-tag-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Styling for the anchor tags to match Docusaurus Tag component */
+.top-tag-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+  margin: 0.2em;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.top-tag-link:hover {
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary-darkest);
+  transform: scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for tag count */
+.tag-count {
+  display: inline-block;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-white);
+  border-radius: 50%;
+  padding: 0.1em 0.4em;
+  margin-left: 0.4em;
+  font-size: 0.7em;
+}
+
+/* Additional footer-specific styling */
+.footer .top-tags-container h4 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
