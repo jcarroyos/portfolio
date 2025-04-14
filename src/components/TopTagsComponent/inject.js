@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import TopTagsComponent from './index';
 
 // This function will be called when the page loads
@@ -10,9 +10,9 @@ function injectTopTagsComponent() {
     const footerSections = document.querySelectorAll('.footer__title');
     let targetSection = null;
     
-    // Find the section with the text "My key tags"
+    // Find the section with the text "Core Interests"
     footerSections.forEach(section => {
-      if (section.textContent.trim() === 'My key tags') {
+      if (section.textContent.trim() === 'Core Interests') {
         targetSection = section.parentElement;
       }
     });
@@ -25,8 +25,9 @@ function injectTopTagsComponent() {
       // Append the container to the footer section
       targetSection.appendChild(container);
       
-      // Render our component into the container
-      ReactDOM.render(<TopTagsComponent />, container);
+      // Create root and render our component into the container using React 18's createRoot
+      const root = createRoot(container);
+      root.render(<TopTagsComponent />);
     }
   }, 500); // Wait 500ms for the footer to render
 }

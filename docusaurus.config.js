@@ -97,7 +97,7 @@ const config = {
             ],
           },
           {
-            title: "My key tags",
+            title: "Core Interests",
           }
         ],
       },
