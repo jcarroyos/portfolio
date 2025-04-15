@@ -1,10 +1,8 @@
 ---
-tags: [.NET, branding]
+tags: [cultural, cultural, ux, ui, branding]
 ---
 
 # Cultural Content Bank
-
-## The order
 
 Visual image design and front end development for web app "Banco de Contenidos" thats brings together the audiovisual, sound and multimedia production supported and/or produced by the Ministry of Culture from 1989 to the present.
 

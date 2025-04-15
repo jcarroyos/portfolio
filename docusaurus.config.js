@@ -20,6 +20,7 @@ const config = {
   projectName: "portfolio", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
+
   presets: [
     [
       "classic",
@@ -94,13 +95,20 @@ const config = {
             ],
           },
           {
-            title: "Sharing ideas at",
+            title: "Core Interests",
             items: [
-
               {
-                label: "are.na/jcarroyos-art",
-                to: "https://www.are.na/jcarroyos-art/",
+                label: "Museums",
+                to: "/docs/tags/museums",
               },
+              {
+                label: "Wordpress",
+                to: "/docs/tags/wordpress",
+              },
+              {
+                label: "Hypermedia",
+                to: "/docs/tags/hypermedia",
+              }
             ],
           }
         ],
