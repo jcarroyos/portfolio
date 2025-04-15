@@ -25,8 +25,11 @@ function DocTagsListPageContent({tags, title}) {
       className={clsx(ThemeClassNames.page.docsTagsListPage)}>
       <div className="container margin-vert--lg">
         <div className="row">
+          {/* Sidebar placeholder removed to fix the error */}
           <main className="col col--10 col--offset-1">
-            <Heading as="h1" className="text--center">{title}</Heading>
+            <header>
+              <Heading as="h1">{title}</Heading>
+            </header>
             <TagCloud tags={tags} />
           </main>
         </div>
