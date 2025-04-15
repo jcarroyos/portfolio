@@ -2,19 +2,12 @@
 sidebar_position: 1
 ---
 
-import TagCloudComponent from '../src/components/TagCloudComponent';
-
 # Portfolio Intro
-
-![Notebooks introduction](https://cdn.masto.host/mastodonart/media_attachments/files/113/394/002/335/520/215/original/7f4b0c9419bf325c.jpg)
 
 I'm what you might call a hybrid professional, someone who merges art with technology. My work revolves around the idea of connecting design with code to create digital experiences that are interactive, engaging, and, above all, that foster cultural and artistic growth. I'm passionate about creating interactive content that goes beyond traditional media, exploring immersive environments, web applications, and projects that bring together both the digital and physical worlds.
 
-## Explore this portfolio by tags
+![Notebooks introduction](https://cdn.masto.host/mastodonart/media_attachments/files/113/394/002/335/520/215/original/7f4b0c9419bf325c.jpg)
 
-<div className="margin-bottom--xl margin-top--lg">
-  <TagCloudComponent />
-</div>
 
 ## About Me
 
