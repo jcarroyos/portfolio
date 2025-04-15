@@ -28,7 +28,7 @@ function DocTagsListPageContent({tags, title}) {
           {/* Sidebar placeholder removed to fix the error */}
           <main className="col col--10 col--offset-1">
             <header>
-              <Heading as="h1">{title}</Heading>
+              <Heading as="h1">Core Interests by {title}</Heading>
             </header>
             <TagCloud tags={tags} />
           </main>
