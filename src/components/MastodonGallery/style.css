@@ -96,9 +96,13 @@ img {
   figcaption {
     grid-row: 2;
     grid-column: 1;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--ifm-color-primary-lighter);
+    color: var(--ifm-color-primary-darkest);
     padding: 0.2em 0.5em;
-    justify-self: start;
+    justify-self: flex-end;
+    position: relative;
+    bottom: 0px;
+    font-size: 0.8rem;
   }
   
   /* Gallery Container Styles */

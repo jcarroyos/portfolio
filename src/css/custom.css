@@ -26,6 +26,7 @@
   --ifm-color-primary-light: #00d3eb;
   --ifm-color-primary-lighter: #00e3eb;
   --ifm-color-primary-lightest: #003b42;
+  --ifm-color-primary-contrast: #e9eeee;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -52,14 +53,23 @@ h1.inner-titles {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "ROND" 0;
-  color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-color-primary-contrast);
 }
 header h1{
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Doto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "ROND" 0;
-  color: var(--ifm-color-primary-darkest);
+  color: var(--ifm-color-primary-contrast);
+}
+.markdown > h2{
+  font-size: 1.5rem;
+}
+.markdown > h3{
+  font-size: 1.2rem;
+}
+.markdown > h4{
+  font-size: 1.1rem;
 }
