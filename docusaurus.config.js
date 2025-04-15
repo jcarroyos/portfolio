@@ -20,8 +20,6 @@ const config = {
   projectName: "portfolio", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
-  // Client modules for custom functionality
-  clientModules: [require.resolve('./src/clientModules.js')],
 
   presets: [
     [
@@ -98,6 +96,20 @@ const config = {
           },
           {
             title: "Core Interests",
+            items: [
+              {
+                label: "Museums",
+                to: "/docs/tags/museums",
+              },
+              {
+                label: "Wordpress",
+                to: "/docs/tags/wordpress",
+              },
+              {
+                label: "Hypermedia",
+                to: "/docs/tags/hypermedia",
+              }
+            ],
           }
         ],
       },
