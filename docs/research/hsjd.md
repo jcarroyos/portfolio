@@ -36,4 +36,4 @@ El fenómeno sociocomunicativo del caso de estudio se manifiesta a través de el
 
 ### Hospital San Juan de Dios de Bogotá  
 **Juan Carlos Arroyo Sosa**  
-*Fecha de publicación: {{2025-04-18}}*
+*Fecha de publicación: 2025-04-18*
