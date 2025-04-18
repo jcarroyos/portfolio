@@ -1,5 +1,5 @@
 ---
-tags: espacio hospitalario, apropiación espacial, resistencia social, memoria colectiva, transformación institucional
+tags: [espacio hospitalario, apropiación espacial, resistencia social, memoria colectiva, transformación institucional]
 ---
 # La Yuxtaposición Hogar-Hospital: Transformación Espacial y Simbólica  
 
