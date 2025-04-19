@@ -32,7 +32,6 @@ img {
     justify-content: center;
     position: relative;
     max-width: 100%;
-    max-height: 70vh;
     background-color: black;
   }
   
@@ -48,7 +47,6 @@ img {
     flex-direction: column;
     justify-content: center;
     padding: 15px;
-    max-height: 20vh;
     overflow-y: auto;
     background-color: white;
   }
