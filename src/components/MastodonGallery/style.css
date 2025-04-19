@@ -36,7 +36,7 @@ img {
   }
   
   .modal-image-container img {
-    max-height: 70vh; 
+    max-height: 60vh; 
     max-width: 100%; 
     object-fit: contain;
   }
