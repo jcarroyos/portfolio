@@ -10,6 +10,7 @@ export default function MastodonGallery() {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedPost, setSelectedPost] = useState(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [listOfImages, setListOfImages] = useState([]);
   const [maxId, setMaxId] = useState(null);
   const [hasMore, setHasMore] = useState(true);
@@ -35,6 +36,7 @@ export default function MastodonGallery() {
   const handleOpenModal = (image, post) => {
     setSelectedImage(image);
     setSelectedPost(post);
+    setCurrentImageIndex(0);
     setShowModal(true);
   };
 
@@ -42,6 +44,23 @@ export default function MastodonGallery() {
     setShowModal(false);
     setSelectedImage(null);
     setSelectedPost(null);
+    setCurrentImageIndex(0);
+  };
+
+  const goToNextImage = () => {
+    if (selectedPost && selectedPost.mediaAttachments.length > 1) {
+      setCurrentImageIndex(prevIndex => 
+        prevIndex === selectedPost.mediaAttachments.length - 1 ? 0 : prevIndex + 1
+      );
+    }
+  };
+
+  const goToPrevImage = () => {
+    if (selectedPost && selectedPost.mediaAttachments.length > 1) {
+      setCurrentImageIndex(prevIndex => 
+        prevIndex === 0 ? selectedPost.mediaAttachments.length - 1 : prevIndex - 1
+      );
+    }
   };
 
   return (
@@ -63,6 +82,9 @@ export default function MastodonGallery() {
               />
               <figcaption>
                 {image.id}
+                {image.mediaAttachments && image.mediaAttachments.length > 1 && (
+                  <span className="image-count">+{image.mediaAttachments.length - 1}</span>
+                )}
               </figcaption>
             </figure>
           ))}
@@ -78,7 +100,33 @@ export default function MastodonGallery() {
         </div>
         <div className="modal-content">
           <div className="modal-image-container">
-            <img src={selectedImage} alt="Selected" />
+            {selectedPost && selectedPost.mediaAttachments && selectedPost.mediaAttachments.length > 0 && (
+              <>
+                <img 
+                  src={selectedPost.mediaAttachments[currentImageIndex].fullUrl} 
+                  alt={selectedPost.mediaAttachments[currentImageIndex].description || "Image"} 
+                />
+                {selectedPost.mediaAttachments.length > 1 && (
+                  <div className="slider-controls">
+                    <button className="slider-button prev" onClick={goToPrevImage}>
+                      &#10094;
+                    </button>
+                    <div className="slider-indicators">
+                      {selectedPost.mediaAttachments.map((_, index) => (
+                        <span 
+                          key={index} 
+                          className={`slider-dot ${index === currentImageIndex ? 'active' : ''}`}
+                          onClick={() => setCurrentImageIndex(index)}
+                        ></span>
+                      ))}
+                    </div>
+                    <button className="slider-button next" onClick={goToNextImage}>
+                      &#10095;
+                    </button>
+                  </div>
+                )}
+              </>
+            )}
           </div>
           {selectedPost && (
             <div className="post-metadata">

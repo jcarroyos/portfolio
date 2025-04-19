@@ -30,15 +30,28 @@ async function fetchPaginatedPosts(maxId = null, sinceId = null, limit = 12) {
     const data = await response.json();
     const accountData = await accountResponse.json();
 
-
-    const posts = data.map(post => ({
-      id: post.id,
-      previewUrl: post.media_attachments?.[0]?.preview_url || '',
-      fullUrl: post.media_attachments?.[0]?.url || '',
-      content: post.content,
-      createdAt: post.created_at,
-      url: post.url
-    })).filter(post => post.previewUrl && post.fullUrl);
+    const posts = data.map(post => {
+      // Get all media attachments, not just the first one
+      const mediaAttachments = post.media_attachments || [];
+      
+      return {
+        id: post.id,
+        // First image is used for the grid preview
+        previewUrl: mediaAttachments[0]?.preview_url || '',
+        fullUrl: mediaAttachments[0]?.url || '',
+        // Save all media attachments
+        mediaAttachments: mediaAttachments.map(media => ({
+          id: media.id,
+          previewUrl: media.preview_url,
+          fullUrl: media.url,
+          type: media.type,
+          description: media.description
+        })),
+        content: post.content,
+        createdAt: post.created_at,
+        url: post.url
+      };
+    }).filter(post => post.previewUrl && post.fullUrl);
 
     const hasNext = data.length === limit;
     const hasPrevious = !!sinceId;
