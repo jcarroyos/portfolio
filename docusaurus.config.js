@@ -95,7 +95,7 @@ const config = {
             ],
           },
           {
-            title: "Core Interests",
+            title: "Topics & Tech",
             items: [
               {
                 label: "Museums",
