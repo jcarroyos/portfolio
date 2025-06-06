@@ -1,24 +1,14 @@
 import React from 'react';
 import clsx from 'clsx';
 import {
-  PageMetadata,
   HtmlClassNameProvider,
   ThemeClassNames,
+  translateTagsPageTitle,
 } from '@docusaurus/theme-common';
 import TagCloud from '@theme/TagCloud';
-import SearchMetadata from '@theme/SearchMetadata';
 import Heading from '@theme/Heading';
 
-function DocTagsListPageMetadata() {
-  return (
-    <>
-      <PageMetadata title="Tags" />
-      <SearchMetadata tag="doc_tags_list" />
-    </>
-  );
-}
-
-function DocTagsListPageContent({tags}) {
+function DocTagsListPageContent({tags, title}) {
   return (
     <HtmlClassNameProvider
       className={clsx(ThemeClassNames.page.docsTagsListPage)}>
@@ -26,7 +16,7 @@ function DocTagsListPageContent({tags}) {
         <div className="row">
           <main className="col col--10 col--offset-1">
             <header>
-              <Heading as="h1">Topics & Tech by Tags</Heading>
+              <Heading as="h1">Topics & Tech by {title}</Heading>
             </header>
             <TagCloud tags={tags} />
           </main>
@@ -37,10 +27,6 @@ function DocTagsListPageContent({tags}) {
 }
 
 export default function DocTagsListPage(props) {
-  return (
-    <>
-      <DocTagsListPageMetadata />
-      <DocTagsListPageContent {...props} />
-    </>
-  );
+  const title = translateTagsPageTitle();
+  return <DocTagsListPageContent {...props} title={title} />;
 }
